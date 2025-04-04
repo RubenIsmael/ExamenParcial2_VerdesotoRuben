@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Examen_parcia2.Models.Objetivo>
+
+@{
+    ViewData["Title"] = "Objetivos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/tabla.css" />
+
+<!-- Contenedor principal -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="mb-4">Administración de Objetivos</h1>
+
+            <!-- Contenedor de búsqueda -->
+            <div class="contenedor-busqueda mb-3">
+                <div class="input-group">
+                    <span class="input-group-text bg-primary text-white">
+                        <i class="fas fa-search"></i>
+                    </span>
+                    <input type="text" id="searchInput" class="input-busqueda form-control" placeholder="Buscar objetivos...">
+                </div>
+            </div>
+
+            <!-- Botón para crear nuevo objetivo -->
+            <div>
+                <a asp-action="Create" class="btn btn-success my-1">✍️ Nuevo Objetivo</a>
+            </div>
+
+            <!-- Tabla estilizada -->
+            <div class="table-container">
+                <table class="table table-modern" id="objetivosTable">
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th>Campaña</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td data-label="Descripción">@Html.DisplayFor(modelItem => item.Descripcion)</td>
+                                <td data-label="Campaña">@Html.DisplayFor(modelItem => item.Campaña.Nombre)</td>
+                                <td data-label="Acciones">
+                                    <div class="d-flex gap-2">
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">
+                                            <i class="fas fa-edit me-1"></i>Editar
+                                        </a>
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">
+                                            <i class="fas fa-info-circle me-1"></i>Detalles
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
+                                            <i class="fas fa-trash me-1"></i>Eliminar
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para la búsqueda en la tabla -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#searchInput").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#objetivosTable tbody tr").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+</script>

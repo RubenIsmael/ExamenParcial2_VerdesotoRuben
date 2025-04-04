@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Examen_parcia2.Models.Campaña>
+
+@{
+    ViewData["Title"] = "Administración de Campañas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/tabla.css" />
+
+<!-- Contenedor principal -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="mb-4">Administración de Campañas</h1>
+
+            <!-- Contenedor de búsqueda -->
+            <div class="contenedor-busqueda mb-3">
+                <div class="input-group">
+                    <span class="input-group-text bg-primary text-white">
+                        <i class="fas fa-search"></i>
+                    </span>
+                    <input type="text" id="searchInput" class="input-busqueda form-control" placeholder="Buscar campañas...">
+                </div>
+            </div>
+
+            <!-- Botón para crear nueva campaña -->
+            <div>
+                <a asp-action="Create" class="btn btn-success my-1">✍️ Nueva Campaña</a>
+            </div>
+
+            <!-- Tabla estilizada -->
+            <div class="table-container">
+                <table class="table table-modern" id="campañasTable">
+                    <thead>
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                            <th>@Html.DisplayNameFor(model => model.FechaInicio)</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td data-label="Nombre">@Html.DisplayFor(modelItem => item.Nombre)</td>
+                                <td data-label="Fecha de Inicio">@Html.DisplayFor(modelItem => item.FechaInicio)</td>
+                                <td data-label="Acciones">
+                                    <div class="d-flex gap-2">
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">
+                                            <i class="fas fa-edit me-1"></i>Editar
+                                        </a>
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">
+                                            <i class="fas fa-info-circle me-1"></i>Detalles
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
+                                            <i class="fas fa-trash me-1"></i>Eliminar
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para la búsqueda en la tabla -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#searchInput").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#campañasTable tbody tr").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+</script>

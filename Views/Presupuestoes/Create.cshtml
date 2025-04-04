@@ -1,0 +1,59 @@
+﻿@model Examen_parcia2.Models.Presupuesto
+
+@{
+    ViewData["Title"] = "Crear Presupuesto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Contenedor principal -->
+<div class="container-fluid bg-light">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <!-- Tarjeta con estilos modernos -->
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header bg-primary text-white text-center"
+                     style="background: linear-gradient(to right, #4a90e2, #50c878);">
+                    <h1 class="my-2">Registrar Nuevo Presupuesto</h1>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <!-- Monto -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Monto" class="form-label text-primary">
+                                <i class="fas fa-dollar-sign me-2"></i>Monto
+                            </label>
+                            <input asp-for="Monto" class="form-control" />
+                            <span asp-validation-for="Monto" class="text-danger"></span>
+                        </div>
+
+                        <!-- Campaña -->
+                        <div class="form-group mb-3">
+                            <label asp-for="CampañaId" class="form-label text-primary">
+                                <i class="fas fa-bullhorn me-2"></i>Campaña
+                            </label>
+                            <select asp-for="CampañaId" class="form-control" asp-items="ViewBag.CampañaId"></select>
+                        </div>
+
+                        <!-- Botones -->
+                        <div class="form-group text-center mt-4">
+                            <button type="submit" class="btn btn-modern btn-crear me-2">
+                                <i class="fas fa-save me-2"></i>Guardar
+                            </button>
+                            <a asp-action="Index" class="btn btn-modern btn-detalles">
+                                <i class="fas fa-arrow-left me-2"></i>Volver al Listado
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

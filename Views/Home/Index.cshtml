@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Sistema de Gestión de Actividades de Marketing";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <title>@ViewData["Title"]</title>
+    </head>
+<body>
+    <link rel="stylesheet" href="~/css/vistas.css" />
+    <div class="hero">
+        <div class="overlay">
+            <div class="title-primary">
+                <h1 class="display-4">Bienvenido al Sistema de Gestión de Actividades de Marketing</h1>
+                <div class="title-secundary">
+                <p>Si desea disfrutar de nuestros servicios, inicie sesión como administrador o usuario.</p>
+                    <a class="btn modern-green-btn" asp-area="Identity" asp-page="/Account/Login">Ingresar</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

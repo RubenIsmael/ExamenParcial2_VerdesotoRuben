@@ -1,0 +1,84 @@
+﻿@model Examen_parcia2.Models.Metrica
+
+@{
+    ViewData["Title"] = "Crear Métrica";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--  Contenedor fluido -->
+<div class="container-fluid bg-light">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <!--  Tarjeta con sombra y diseño mejorado -->
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header bg-primary text-white text-center"
+                     style="background: linear-gradient(to right, #4a90e2, #50c878);">
+                    <h1 class="my-2">Registrar Nueva Métrica</h1>
+                </div>
+
+                <div class="card-body p-4">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <!-- Campo Nombre -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Nombre" class="form-label text-primary">
+                                <i class="fas fa-tag me-2"></i>Nombre
+                            </label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-primary text-white">
+                                    <i class="fas fa-tag"></i>
+                                </span>
+                                <input asp-for="Nombre" class="form-control" />
+                            </div>
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+
+                        <!-- Campo Valor -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Valor" class="form-label text-primary">
+                                <i class="fas fa-balance-scale me-2"></i>Valor
+                            </label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-primary text-white">
+                                    <i class="fas fa-balance-scale"></i>
+                                </span>
+                                <input asp-for="Valor" class="form-control" />
+                            </div>
+                            <span asp-validation-for="Valor" class="text-danger"></span>
+                        </div>
+
+                        <!-- Campo Resultado -->
+                        <div class="form-group mb-3">
+                            <label asp-for="ResultadoId" class="form-label text-primary">
+                                <i class="fas fa-list-alt me-2"></i>Resultado
+                            </label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-primary text-white">
+                                    <i class="fas fa-list-alt"></i>
+                                </span>
+                                <select asp-for="ResultadoId" class="form-control" asp-items="ViewBag.ResultadoId"></select>
+                            </div>
+                        </div>
+
+                        <!-- Botones -->
+                        <div class="form-group text-center mt-4">
+                            <button type="submit" class="btn btn-modern btn-crear me-2">
+                                <i class="fas fa-save me-2"></i>Guardar
+                            </button>
+                            <a asp-action="Index" class="btn btn-modern btn-detalles">
+                                <i class="fas fa-arrow-left me-2"></i>Volver al Listado
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

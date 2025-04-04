@@ -1,0 +1,397 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\views\\resultadoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:views\\resultadoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\views\\campa\u00F1a\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:views\\campa\u00F1a\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\views\\metricas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:views\\metricas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\views\\resultadoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:views\\resultadoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\views\\campa\u00F1a\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:views\\campa\u00F1a\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\views\\objetivoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:views\\objetivoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\views\\presupuestoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:views\\presupuestoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\views\\objetivoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:views\\objetivoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\views\\metricas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:views\\metricas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\views\\presupuestoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:views\\presupuestoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\wwwroot\\css\\tabla.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:wwwroot\\css\\tabla.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Data\\Migrations\\20250404191207_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250404191207_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|c:\\users\\hpone\\source\\repos\\examen_parcia2\\examen_parcia2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3138E411-D7EE-4FA9-A9AF-2621BFD61C62}|Examen_parcia2.csproj|solutionrelative:examen_parcia2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Campa\u00F1a\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Campa\u00F1a\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Campa\u00F1a\\Create.cshtml",
+              "RelativeToolTip": "Views\\Campa\u00F1a\\Create.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T22:35:45.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Resultadoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Resultadoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Resultadoes\\Create.cshtml",
+              "RelativeToolTip": "Views\\Resultadoes\\Create.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T22:26:18.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Presupuestoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Presupuestoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Presupuestoes\\Create.cshtml",
+              "RelativeToolTip": "Views\\Presupuestoes\\Create.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T22:25:55.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Objetivoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Objetivoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Objetivoes\\Create.cshtml",
+              "RelativeToolTip": "Views\\Objetivoes\\Create.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T22:25:21.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Metricas\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Metricas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Metricas\\Create.cshtml",
+              "RelativeToolTip": "Views\\Metricas\\Create.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAYwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T22:24:50.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Resultadoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Resultadoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Resultadoes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Resultadoes\\Index.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T22:05:48.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Presupuestoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Presupuestoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Presupuestoes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Presupuestoes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T22:04:53.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T15:59:59.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Campa\u00F1a\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Campa\u00F1a\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Campa\u00F1a\\Index.cshtml",
+              "RelativeToolTip": "Views\\Campa\u00F1a\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAUwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T22:31:54.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Objetivoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Objetivoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Objetivoes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Objetivoes\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAUwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T22:04:11.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Metricas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Metricas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Metricas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Metricas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T22:01:56.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "tabla.css",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\wwwroot\\css\\tabla.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\tabla.css",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\wwwroot\\css\\tabla.css",
+              "RelativeToolTip": "wwwroot\\css\\tabla.css",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAYwFAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-04T21:54:31.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T19:21:07.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAApwGgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T19:05:37.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-04T18:40:22.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T18:39:35.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "wwwroot\\css\\login.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAOkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-04T18:12:27.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAnwCIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T17:50:38.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T17:11:04.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T19:11:02.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250404191207_final.cs",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Data\\Migrations\\20250404191207_final.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250404191207_final.cs",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Data\\Migrations\\20250404191207_final.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250404191207_final.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T19:12:07.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Examen_parcia2.csproj",
+              "DocumentMoniker": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Examen_parcia2.csproj",
+              "RelativeDocumentMoniker": "Examen_parcia2.csproj",
+              "ToolTip": "C:\\Users\\HpOne\\source\\repos\\Examen_parcia2\\Examen_parcia2.csproj",
+              "RelativeToolTip": "Examen_parcia2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-04T02:37:58.809Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

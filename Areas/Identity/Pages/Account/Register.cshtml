@@ -1,0 +1,73 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Registro";
+}
+
+<div class="login-container">
+    <div class="login-card">
+        <h1 class="text-center mb-4">Crear una cuenta nueva</h1>
+
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="nombre@ejemplo.com" />
+                <label asp-for="Input.Email">Correo electrónico</label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="contraseña" />
+                <label asp-for="Input.Password">Contraseña</label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="contraseña" />
+                <label asp-for="Input.ConfirmPassword">Confirmar Contraseña</label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <select asp-for="Input.Role" class="form-select" aria-required="true">
+                    <option value="">Seleccione un rol</option>
+                    <option value="Usuario">Usuario</option>
+                    <option value="Administrador">Administrador</option>
+                </select>
+                <label asp-for="Input.Role">Tipo de cuenta</label>
+                <span asp-validation-for="Input.Role" class="text-danger"></span>
+            </div>
+
+
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary mt-4">
+                <i class="fas fa-user-plus me-2"></i>Registrarse
+            </button>
+
+            <div class="text-center mt-3">
+                <p>¿Ya tienes una cuenta? <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Iniciar sesión</a></p>
+            </div>
+        </form>
+    </div>
+
+    @if ((Model.ExternalLogins?.Count ?? 0) > 0)
+    {
+        <div class="login-card mt-4">
+            <h3 class="text-center mb-3">Usar otro servicio para registrarse</h3>
+            <hr />
+            <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <div class="d-flex justify-content-center gap-2 flex-wrap">
+                    @foreach (var provider in Model.ExternalLogins!)
+                    {
+                        <button type="submit" class="btn btn-social" name="provider" value="@provider.Name" title="Iniciar sesión usando su cuenta de @provider.DisplayName">
+                            @provider.DisplayName
+                        </button>
+                    }
+                </div>
+            </form>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

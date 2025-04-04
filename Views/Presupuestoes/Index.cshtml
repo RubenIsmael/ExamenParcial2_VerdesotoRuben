@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Examen_parcia2.Models.Presupuesto>
+
+@{
+    ViewData["Title"] = "Índice de Presupuestos"; 
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
+}
+
+<!-- Contenedor principal -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <!-- Título de la página -->
+            <h1 class="mb-4">Administración de Presupuestos</h1>
+
+            <!-- Botón para crear un nuevo presupuesto -->
+            <div class="mb-3">
+                <a asp-action="Create" class="btn btn-success">✍️ Nuevo Presupuesto</a>
+            </div>
+
+            <!-- Contenedor de tabla con sombra y fondo blanco -->
+            <div class="table-container">
+                <!-- Tabla con estilos modernos -->
+                <table class="table table-modern" id="presupuestoTable">
+                    <thead>
+                        <tr>
+                            <th>Monto</th>
+                            <th>Campaña</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Monto)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Campaña.Nombre)</td>
+                                <td>
+                                    <div class="d-flex gap-2">
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">
+                                            <i class="fas fa-edit me-1"></i>Editar
+                                        </a>
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">
+                                            <i class="fas fa-info-circle me-1"></i>Detalles
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
+                                            <i class="fas fa-trash me-1"></i>Eliminar
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
